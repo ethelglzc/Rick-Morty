@@ -48,9 +48,9 @@ fun DetailScreen(id: Int, onBack: () -> Unit) {
 
                 Spacer(Modifier.height(16.dp))
 
-                Text(character.name, style = MaterialTheme.typography.headlineMedium)
+                Text(character.name, style = MaterialTheme.typography.headlineLarge)
 
-                Spacer(Modifier.height(8.dp))
+                Spacer(Modifier.height(10.dp))
 
                 Text("Status: ${character.status}")
                 Text("Species: ${character.species}")
